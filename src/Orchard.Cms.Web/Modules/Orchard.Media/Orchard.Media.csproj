@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.1.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\OrchardCore\Microsoft.AspNetCore.Modules.Abstractions\Microsoft.AspNetCore.Modules.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\OrchardCore\Orchard.Environment.Shell\Orchard.Environment.Shell.csproj" />
+    <ProjectReference Include="..\..\..\OrchardCore\Orchard.Media.Abstractions\Orchard.Media.Abstractions.csproj" />
+    <ProjectReference Include="..\..\..\OrchardCore\Orchard.StorageProviders.FileSystem\Orchard.StorageProviders.FileSystem.csproj" />
+  </ItemGroup>
+
+</Project>
